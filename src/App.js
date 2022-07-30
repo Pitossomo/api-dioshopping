@@ -4,6 +4,7 @@ import store from './components/store';
 import Routes from './routes';
 import { Container } from '@material-ui/core/';
 import Header from './components/Header';
+import './styles/background.css';
 
 const App = () => {
   
