@@ -1,0 +1,14 @@
+### Expect { message: 'Bem vindo a API Dio Shopping' }
+GET http://localhost:5000 HTTP/1.1
+
+### Expect a json with all messages in the database
+GET http://localhost:5000/message HTTP/1.1
+
+### Expect a json with all messages in the database
+POST http://localhost:5000/message HTTP/1.1
+Content-Type: application/json
+
+{
+  "email": "xistossomo@dio.com.br",
+  "message": "Loren ipsum dolor sit anum habakuque"
+}
